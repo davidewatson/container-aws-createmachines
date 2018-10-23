@@ -41,7 +41,7 @@ if [ -z "${CLUSTER_ID}" ]; then
 fi
 
 if [ -z "${AVAILABILITY_ZONE}" ]; then
-    echo "AVAILABILIT_ZONE must be set"
+    echo "AVAILABILITY_ZONE must be set"
     exit 1
 fi
 
